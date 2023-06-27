@@ -1,0 +1,12 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 36px;
+}
+.content-container{
+    margin-top: 40px;
+    padding: 60px;
+}
+
+.ant-carousel {
+    width: 1200px;
+}

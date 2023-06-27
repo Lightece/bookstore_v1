@@ -1,0 +1,11 @@
+.introduction{
+    font-size: 12pt;
+    font-weight: 400;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+.content-container{
+    margin-top: 40px;
+    padding: 60px;
+}

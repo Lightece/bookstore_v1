@@ -1,0 +1,65 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 36px;
+    color: white;
+    gap: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255,255,255, 0.125);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+}
+.logo {
+    float: left;
+    width: 200px;
+    height: 80px;
+    margin: 5px 5px 5px 25px;
+    background: url("../assets/logo.png") no-repeat center center;
+    background-size: contain;
+}
+.ant-row-rtl  .logo {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 16px 0 16px 24px;
+}
+
+.ant-layout{
+    background: transparent;
+    margin: 0;
+}
+
+.ant-layout-footer{
+    background: transparent;
+    color: #fff;
+}
+ /*override the antd style of Layout header*/
+.ant-layout-header {
+    background: #fff;
+    padding: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100px;
+    overflow: hidden;
+    line-height: 100px;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+.ant-layout-content{
+
+}
+.smallAvatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin:10px;
+    transition: all 0.3s ease-in-out;  /*逐渐改变*/
+}
+
+.smallAvatar:hover{
+    border-radius: 10%;
+}
